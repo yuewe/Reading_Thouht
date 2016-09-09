@@ -1,0 +1,11 @@
+﻿git commit -a //提交到本地仓库
+git status //看看有没有新的修改有没有提交
+git push -u travel_origin master:yuewe//提交到远程仓库
+git push -u origin dev:dev
+(git checkout dev;
+git push url .git;
+git add .(添加所有修改文件);
+git remote rm name(删除名称对应的远程仓库)
+git remote add name url .git(添加远程仓库))
+
+git pull Think master#当本地无法push到远程仓库时，可能是先要同步更新远程仓库的内容到本地。
