@@ -10,4 +10,5 @@ git remote add name url .git(添加远程仓库))
 
 git pull Think master#当本地无法push到远程仓库时，可能是先要同步更新远程仓库的内容到本地。
 git config --global user.name "****"#设置全局用户名。
- git config --global user.email "***.com"#设置全局email
+git config --global user.email "***.com"#设置全局email
+git push origin :branch-name#删除远程分支
